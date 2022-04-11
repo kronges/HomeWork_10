@@ -9,6 +9,3 @@ def load_data():
     for i in data:
         candidates[i['id']] = i
     return candidates
-
-
-load_data()
